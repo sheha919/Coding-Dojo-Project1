@@ -3,10 +3,20 @@
 - Last modified: 10/05/2022
 
 ## Data Types
-| Column Name   | Data Type     | Description |
-| ------------- | ------------- |-------------|
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Column Name               | Data Type     | Description   |
+| -------------             | ------------- |-------------  |
+| Item_Identifier           |object         | Product ID    | 
+| Item_Weight               |float          | Product weight|
+| Item_Fat_Content          |object         | Low/regular fat content|
+| Item_Visibility           |float          |
+| Item_Type                 |object         | Product category|
+| Item_MRP                  |float          | product market retail price|
+| Outlet_Identifier         |object         | Outlet ID     | 
+| Outlet_Establishment_Year |int            | Esablished year of the outlet|
+| Outlet_Size               |object         | Outlet size : High/medium/small |
+| Outlet_Location_Type      |object         |
+| Outlet_Type               |object         | grocery store/ supermarket type 1, 2, 3
+| Item_Outlet_Sales         |float          | Sales for particular product in particular store
 
 ## Exploratory Visuals
 ![image](https://user-images.githubusercontent.com/50593017/194176046-46d7a187-0ec4-41cb-a2bc-a9a31eb5e238.png)
