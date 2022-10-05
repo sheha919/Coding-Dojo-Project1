@@ -1,6 +1,12 @@
 # Project 1 - Part 1
-- Shehani Wetthasinghe
+- Author: Shehani Wetthasinghe
+- Last modified: 10/05/2022
+
 ## Data Types
+| Column Name   | Data Type     | Description |
+| ------------- | ------------- |-------------|
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Exploratory Visuals
 ![image](https://user-images.githubusercontent.com/50593017/194176046-46d7a187-0ec4-41cb-a2bc-a9a31eb5e238.png)
