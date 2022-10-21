@@ -1,10 +1,10 @@
-# Sales Prediction
+# Food Sales Prediction
 - Author: Shehani Wetthasinghe
 - Last modified: 10/21/2022
 
 ## Overview
 
-The goal of this project is to to predict the sales based on the features of products and the outlets. 
+The goal of this project is to to predict the sales based on the features of food products and the outlets. 
 
 ![image](https://user-images.githubusercontent.com/50593017/197253997-5cbd5af0-3e9f-4d0c-a38c-acf7cce4a8f7.png)
 
