@@ -33,11 +33,11 @@ The below pie chart will give you an idea about the proptions of different outle
 
 ![image](https://user-images.githubusercontent.com/50593017/194176046-46d7a187-0ec4-41cb-a2bc-a9a31eb5e238.png)
 
-This histrogram tells the distribution of market retail prices for products available in all outlets. 
+Below histrogram tells the distribution of market retail prices for products available in all outlets. The items appproximately above 200 MRP is lower comparative to MRP below 200. The maximum number of items are in between ~ 120 and ~ 130 MRP
 
 ![image](https://user-images.githubusercontent.com/50593017/194176065-a71e04d2-6ccb-40d7-b88c-8904c01e15e7.png)
 
-The following histrogram shows the distribution of total sales for each product in a particular outlet. According to the diagram, the low priced products tend to have more demand comaprative to the procducts with high prices.
+The following histrogram shows the distribution of total sales for each product in a particular outlet. Since it is a right skewed distribution, the low priced products tend to have more demand comaprative to the procducts with high prices.
 
 ![image](https://user-images.githubusercontent.com/50593017/194176077-23bf57be-ee91-45e8-b351-73aec1633ddd.png)
 
@@ -51,17 +51,26 @@ Let's look at the total sales for each product category.
 
 ![image](https://user-images.githubusercontent.com/50593017/194176181-b80af4dc-5587-436b-ae13-91237bc8390d.png)
 
+**Recommendations**
+
 - Out of all product categories, fruits and vegetables has the highest sales while seafood has the lowest from all types of outlets.
 
-The below set of bar charts illustrates how the total sales changes based on fat content of the product and type/size of the outlet.
+
 ![image](https://user-images.githubusercontent.com/50593017/194176205-e1ac7dfd-5275-4872-9af7-6b2e443423a5.png)
 
-The conclusions are;
+The above diagrom illustrates the total sales as percentage values when it catergorized according to fat content, outlet type and outlet size. The maximum sales obtained from;
 
-    - There is a high demand for low fat containing food products.
-    - The total sales are higher for medium sized and supermarket type1 stores.
+- items contain with low fat according to subplot 1
+- supermarket type 1 according to subplot 2
+- medium size outlets according to subplot 3
+
+**Recommendations**
+
+- According to this data analysis, I suggest to increase the stock of low fat items in medium sized supermarket type 1s to maximize the sales comparative to other outlets
 
 ![image](https://user-images.githubusercontent.com/50593017/194176232-0f6571e6-9c11-49a9-b8d0-2bb33f37ee70.png)
+
+According to the above plot, the minimum amount of sales occurred in grocery stores through all the range of MRP values.
 
 ## Performance of ML models 
 |Model|Train R2|Test R2|Train RMSE|Test RMSE|
