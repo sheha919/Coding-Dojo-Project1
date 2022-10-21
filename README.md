@@ -1,11 +1,11 @@
 # Project 1 - Part 1
 - Author: Shehani Wetthasinghe
-- Last modified: 10/13/2022
+- Last modified: 10/21/2022
 
 ## Overview
 The goal of this project is to to predict the sales based on the features of products and the outlets. The following table illustrated the features and their data types given in the original data source.
 
-## Data Types
+### Data Types
 | Column Name               | Data Type      | Description                                                                                           |
 | -------------             | -------------  |-------------------------------------------------------------------------------------------------------|
 | Item_Identifier           | object         | Unique product ID                                                                                     | 
@@ -23,8 +23,13 @@ The goal of this project is to to predict the sales based on the features of pro
 
 We can maximize the future sales by exploring the key features that directly affect to the sales.
 
-## Exploratory Visuals
+## Explore the data
+The below pie chart will give you an idea about the proptions of different outlet types used in the data set. Supermarket type 1 shows the major contribution.
+
 ![image](https://user-images.githubusercontent.com/50593017/194176046-46d7a187-0ec4-41cb-a2bc-a9a31eb5e238.png)
+
+This histrogram tells the distribution of market retail prices for products available in all outlets. 
+
 ![image](https://user-images.githubusercontent.com/50593017/194176065-a71e04d2-6ccb-40d7-b88c-8904c01e15e7.png)
 ![image](https://user-images.githubusercontent.com/50593017/194176077-23bf57be-ee91-45e8-b351-73aec1633ddd.png)
 ![image](https://user-images.githubusercontent.com/50593017/194176127-48c02af3-5ff2-4e7f-ba3f-b32e1b455ca7.png)
