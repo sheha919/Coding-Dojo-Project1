@@ -10,6 +10,8 @@ The goal of this project is to to predict the sales based on the features of pro
 
 The following table illustrated the features and their data types given in the original data source.
 
+**Note:** Indian Rupee (₹) is used as the currency of this data set. 
+
 ### Data Types
 | Column Name               | Data Type      | Description                                                                                           |
 | -------------             | -------------  |-------------------------------------------------------------------------------------------------------|
@@ -33,7 +35,7 @@ The below pie chart will give you an idea about the proptions of different outle
 
 ![image](https://user-images.githubusercontent.com/50593017/194176046-46d7a187-0ec4-41cb-a2bc-a9a31eb5e238.png)
 
-Below histrogram tells the distribution of market retail prices for products available in all outlets. The items appproximately above 200 MRP is lower comparative to MRP below 200. The maximum number of items are in between ~ 120 and ~ 130 MRP
+Below histrogram tells the distribution of market retail prices for products available in all outlets. The items appproximately above ₹ 200 MRP is lower comparative to MRP below 200. The maximum number of items are in between ~ ₹ 120 and ~ ₹ 130 MRP
 
 ![image](https://user-images.githubusercontent.com/50593017/194176065-a71e04d2-6ccb-40d7-b88c-8904c01e15e7.png)
 
