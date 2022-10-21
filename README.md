@@ -51,8 +51,6 @@ Let's look at the total sales for each product category.
 
 ![image](https://user-images.githubusercontent.com/50593017/194176181-b80af4dc-5587-436b-ae13-91237bc8390d.png)
 
-**Recommendations**
-
 - Out of all product categories, fruits and vegetables has the highest sales while seafood has the lowest from all types of outlets.
 
 
@@ -64,21 +62,29 @@ The above diagrom illustrates the total sales as percentage values when it cater
 - supermarket type 1 according to subplot 2
 - medium size outlets according to subplot 3
 
-**Recommendations**
+## Recommendations
 
-- According to this data analysis, I suggest to increase the stock of low fat items in medium sized supermarket type 1s to maximize the sales comparative to other outlets
+- According to this data analysis, customers tend to consume more healthier food comparative to other food categories. Therefore, I suggest to increase the stock of low fat items in medium sized supermarket type 1s to maximize the sales comparative to other outlets
 
 ![image](https://user-images.githubusercontent.com/50593017/194176232-0f6571e6-9c11-49a9-b8d0-2bb33f37ee70.png)
 
 According to the above plot, the minimum amount of sales occurred in grocery stores through all the range of MRP values.
 
-## Performance of ML models 
+
+
+## Make Predictions
+Here, I came up with two types of machine learning models to predict the food sales in different outlets. They are;
+
+- Linear Regression
+- Decision Tree 
+
+The performance of the ML models are as follows;
+
 |Model|Train R2|Test R2|Train RMSE|Test RMSE|
 |---|---|---|---|---|
 |Linear Regression|0\.560571|0\.565842|₹1140\.38|₹1094\.46|
 |Decision Tree    |0\.603933|0\.594709|₹1082\.66|₹1057\.44|
 
-- Above table illustrated the summary of the performance of the two models used in this work.
 - In both models, corresponding train and test R2 scores are approximately equal to each other. That says they are not overfitting.
 - Since all R2 score values are above 0.3, the models are not underfitting too.
 - Here I conclude that the decision tree model is the best performing model since it obtained;
