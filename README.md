@@ -31,7 +31,15 @@ The below pie chart will give you an idea about the proptions of different outle
 This histrogram tells the distribution of market retail prices for products available in all outlets. 
 
 ![image](https://user-images.githubusercontent.com/50593017/194176065-a71e04d2-6ccb-40d7-b88c-8904c01e15e7.png)
+
+The following histrogram shows the distribution of total sales for each product in a particular outlet. According to the diagram, the low priced products tend to have more demand comaprative to the procducts with high prices.
+
 ![image](https://user-images.githubusercontent.com/50593017/194176077-23bf57be-ee91-45e8-b351-73aec1633ddd.png)
+
+According to the following diagram, the range of sales for different outlet types can be arranged as;
+
+Supermarket type3 > Supermarket type1 > Supermarket type3 > Grocery
+
 ![image](https://user-images.githubusercontent.com/50593017/194176127-48c02af3-5ff2-4e7f-ba3f-b32e1b455ca7.png)
 
 ## Explanatory Visuals
