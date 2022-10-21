@@ -53,7 +53,14 @@ Let's look at the total sales for each product category.
 
 - Out of all product categories, fruits and vegetables has the highest sales while seafood has the lowest from all types of outlets.
 
+The below set of bar charts illustrates how the total sales changes based on fat content of the product and type/size of the outlet.
 ![image](https://user-images.githubusercontent.com/50593017/194176205-e1ac7dfd-5275-4872-9af7-6b2e443423a5.png)
+
+The conclusions are;
+
+    - There is a high demand for low fat containing food products.
+    - The total sales are higher for medium sized and supermarket type1 stores.
+
 ![image](https://user-images.githubusercontent.com/50593017/194176232-0f6571e6-9c11-49a9-b8d0-2bb33f37ee70.png)
 
 ## Performance of ML models 
