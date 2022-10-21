@@ -1,6 +1,7 @@
 # Project 1 - Part 1
 - Author: Shehani Wetthasinghe
 - Last modified: 10/13/2022
+##Overview
 
 ## Data Types
 | Column Name               | Data Type      | Description                                                                                           |
@@ -29,5 +30,11 @@
 ![image](https://user-images.githubusercontent.com/50593017/194176181-b80af4dc-5587-436b-ae13-91237bc8390d.png)
 ![image](https://user-images.githubusercontent.com/50593017/194176205-e1ac7dfd-5275-4872-9af7-6b2e443423a5.png)
 ![image](https://user-images.githubusercontent.com/50593017/194176232-0f6571e6-9c11-49a9-b8d0-2bb33f37ee70.png)
+
+##Performance of ML models
+|Model|Train R2|Test R2|Train RMSE|Test RMSE|
+|---|---|---|---|---|
+|Linear Regression|0\.5605710944673347|0\.5658416128335935|₹1140\.38|₹1094\.46|
+|Decision Tree|0\.6039332360864909|0\.5947092601209933|₹1082\.66|₹1057\.44|
 
 
