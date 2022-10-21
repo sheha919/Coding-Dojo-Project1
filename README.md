@@ -85,7 +85,7 @@ The performance of the ML models are as follows;
 |Linear Regression|0\.560571|0\.565842|₹1140\.38|₹1094\.46|
 |Decision Tree    |0\.603933|0\.594709|₹1082\.66|₹1057\.44|
 
-- In both models, corresponding train and test R2 scores are approximately equal to each other. That says they are not overfitting.
+- In both models, the corresponding train and test R2 scores are approximately equal to each other. It says that they are not overfitting.
 - Since all R2 score values are above 0.3, the models are not underfitting too.
 - Here I conclude that the decision tree model is the best performing model since it obtained;
     - highest test R2 score
