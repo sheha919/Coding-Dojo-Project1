@@ -1,7 +1,9 @@
 # Project 1 - Part 1
 - Author: Shehani Wetthasinghe
 - Last modified: 10/13/2022
-##Overview
+
+## Overview
+The goal of this project is to to predict the sales based on the features of products and the outlets. The following table illustrated the features and their data types given in the original data source.
 
 ## Data Types
 | Column Name               | Data Type      | Description                                                                                           |
@@ -19,6 +21,7 @@
 | Outlet_Type               | object         | Whether the outlet is a grocery store or some sort of supermarket                                     |
 | Item_Outlet_Sales         | float          | Sales of the product in the particular store. This is the target variable to be predicted             |
 
+We can maximize the future sales by exploring the key features that directly affect to the sales.
 
 ## Exploratory Visuals
 ![image](https://user-images.githubusercontent.com/50593017/194176046-46d7a187-0ec4-41cb-a2bc-a9a31eb5e238.png)
