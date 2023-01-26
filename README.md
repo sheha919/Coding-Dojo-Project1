@@ -64,6 +64,16 @@ The above diagrom illustrates the total sales as percentage values when it cater
 - supermarket type 1 according to subplot 2
 - medium size outlets according to subplot 3
 
+## Feature Importance
+First, the importance of the features were determined by extracting the coefficients of linear regression model. The below figure illustrates the coefficent values for each features.
+![image](Linear Regression Coeffiicents.png)
+
+Next, the importance of the features were determined for decision tree regression model using ".feature_importances_" attribute and the values are shown in below.
+
+![image](Decision Tree Regression Coeffiicents.png)
+
+According  to the both models, 'Item_MRP' and 'Outlet_Type' are the most impactful features in the data set. 
+
 ## Recommendations
 
 - According to this data analysis, customers tend to purchase more healthier food comparative to other food categories. Therefore, I suggest to increase the stock of low fat items in medium sized supermarket type 1s to maximize the sales comparative to other outlets
