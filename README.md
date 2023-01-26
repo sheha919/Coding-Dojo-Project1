@@ -66,11 +66,11 @@ The above diagrom illustrates the total sales as percentage values when it cater
 
 ## Feature Importance
 First, the importance of the features were determined by extracting the coefficients of linear regression model. The below figure illustrates the coefficent values for each features.
-![image](Linear Regression Coeffiicents.png)
+![image](Linear%20Regression%20Coeffiicents.png)
 
 Next, the importance of the features were determined for decision tree regression model using ".feature_importances_" attribute and the values are shown in below.
 
-![image](Decision Tree Regression Coeffiicents.png)
+![image](Decision%20Tree%20Regression%20Coeffiicents.png)
 
 According  to the both models, 'Item_MRP' and 'Outlet_Type' are the most impactful features in the data set. 
 
