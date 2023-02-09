@@ -97,8 +97,8 @@ According  to the both models, 'Item_MRP' and 'Outlet_Type' are the most impactf
     - If the item is in Type3 supermarket, the predicted sales value is higher 
     
 ### Local Explainers
-![image](dt_reg_shap_force_maxy.png)
-![image](dt_reg_shap_force_miny.png)
+%![image](dt_reg_shap_force_maxy.png)
+%![image](dt_reg_shap_force_miny.png)
 
 According to Shap local explainers;
 - Item_MRP and Outlet_Type_Supermarket Type3 features make a large contribution to increase the predicted sales while Outlet_Type_Supermarket Type 1 feature makes a comparably small impact to decrease the predicted sales to its maximum value
