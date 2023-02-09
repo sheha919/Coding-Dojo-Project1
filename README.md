@@ -64,7 +64,34 @@ The above diagrom illustrates the total sales as percentage values when it cater
 - supermarket type 1 according to subplot 2
 - medium size outlets according to subplot 3
 
-## Model Explainers
+## Recommendations
+
+- According to this data analysis, customers tend to purchase more healthier food comparative to other food categories. Therefore, I suggest to increase the stock of low fat items in medium sized supermarket type 1s to maximize the sales comparative to other outlets
+
+![image](https://user-images.githubusercontent.com/50593017/194176232-0f6571e6-9c11-49a9-b8d0-2bb33f37ee70.png)
+
+According to the above plot, the minimum amount of sales occurred in grocery stores through all the range of MRP values.
+
+## Make Predictions
+Here, I came up with two types of machine learning models to predict the food sales in different outlets. They are;
+
+- Linear Regression
+- Decision Tree 
+
+The performance of the ML models are as follows;
+
+|Model|Train R2|Test R2|Train RMSE|Test RMSE|
+|---|---|---|---|---|
+|Linear Regression|0\.560571|0\.565842|₹1140\.38|₹1094\.46|
+|Decision Tree    |0\.603933|0\.594709|₹1082\.66|₹1057\.44|
+
+
+- Here I conclude that the decision tree model is the best performing model since it obtained;
+    - highest test R2 score
+    - lowest train and test RMSE values
+    - lowest diffrence value between train and test RMSE
+
+## Further Analysis with Model Explainers
 
 ### Global Explianers 
 
@@ -97,8 +124,6 @@ According  to the both models, 'Item_MRP' and 'Outlet_Type' are the most impactf
     - If the item is in Type3 supermarket, the predicted sales value is higher 
     
 ### Local Explainers
-%![image](dt_reg_shap_force_maxy.png)
-%![image](dt_reg_shap_force_miny.png)
 
 According to Shap local explainers;
 - Item_MRP and Outlet_Type_Supermarket Type3 features make a large contribution to increase the predicted sales while Outlet_Type_Supermarket Type 1 feature makes a comparably small impact to decrease the predicted sales to its maximum value
@@ -108,32 +133,5 @@ According to the Lime explainer;
 - Outlet_Type_Supermarket Type3 and Item_MRP increase the predicted sales while Outlet_Type_Supermarket Type1 and Outlet_Type_Supermarket Type2 decrease the predicted sales to its maximum value. 
 - Outlet_Type_Supermarket Type3, Outlet_Type_Supermarket Type1, Item_MRP and Outlet_Type_Supermarket Type2 decrease predicted value while Item_Type_Seafood, Item_Type_Meat and Item_Fat_Content_Regular increase the predicted sales to its minimum value.
 
-## Recommendations
 
-- According to this data analysis, customers tend to purchase more healthier food comparative to other food categories. Therefore, I suggest to increase the stock of low fat items in medium sized supermarket type 1s to maximize the sales comparative to other outlets
-
-![image](https://user-images.githubusercontent.com/50593017/194176232-0f6571e6-9c11-49a9-b8d0-2bb33f37ee70.png)
-
-According to the above plot, the minimum amount of sales occurred in grocery stores through all the range of MRP values.
-
-
-
-## Make Predictions
-Here, I came up with two types of machine learning models to predict the food sales in different outlets. They are;
-
-- Linear Regression
-- Decision Tree 
-
-The performance of the ML models are as follows;
-
-|Model|Train R2|Test R2|Train RMSE|Test RMSE|
-|---|---|---|---|---|
-|Linear Regression|0\.560571|0\.565842|₹1140\.38|₹1094\.46|
-|Decision Tree    |0\.603933|0\.594709|₹1082\.66|₹1057\.44|
-
-
-- Here I conclude that the decision tree model is the best performing model since it obtained;
-    - highest test R2 score
-    - lowest train and test RMSE values
-    - lowest diffrence value between train and test RMSE
 
