@@ -125,6 +125,11 @@ According  to the both models, 'Item_MRP' and 'Outlet_Type' are the most impactf
     
 ### Local Explainers
 
+Force plot for maximum sales entry;
+![image](shap_maxy.png)
+Force plot for minmum sales entry;
+![image](shap_miny.png)
+
 According to Shap local explainers;
 - Item_MRP and Outlet_Type_Supermarket Type3 features make a large contribution to increase the predicted sales while Outlet_Type_Supermarket Type 1 feature makes a comparably small impact to decrease the predicted sales to its maximum value
 - Item_MRP and Outlet_Type_Supermarket Type1, Outlet_Type_Supermarket Type2 and Outlet_Type_Supermarket Type3 features impact to decrease the predicted sales to its minimum value
